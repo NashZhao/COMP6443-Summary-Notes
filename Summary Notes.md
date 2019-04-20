@@ -168,7 +168,7 @@
 ### Attacking sessions
 
 - Session creation
-  - How are sesions created? Can I fake my own session?
+  - How are sessions created? Can I fake my own session?
   - Can I attack the PRNG and generate my own cookie?
   - Can I 'fixate' a session (assign the session cookie to a different user)?
 - Session handling / transfer / usage
