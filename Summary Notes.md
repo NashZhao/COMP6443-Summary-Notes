@@ -90,9 +90,9 @@
 
 ### In-band SQLi
 
-- Using the same communication channel to both launch the attack and gather resuts
+- Using the same communication channel to both launch the attack and gather results
 - Error-based SQLi: injecting special characters like `'` to cause an exception
-- Union-based SQLi: leveraging the `UNION` operator to combine the resuts of two or more `SELECT` statements into a single result which is then returned as part of the HTTP response
+- Union-based SQLi: leveraging the `UNION` operator to combine the results of two or more `SELECT` statements into a single result which is then returned as part of the HTTP response
 - Fingerprinting SQLi: determining the exact DBMS driving the backend and tailoring further attacks from this information
 
 ### Blind SQLi
