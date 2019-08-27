@@ -97,7 +97,7 @@
 
 ### Blind SQLi
 
-- Applies when you can't directly extract data by selecting it into a colulmn
+- Applies when you can't directly extract data by selecting it into a column
 - Although no data is actually transferred via the web application, you can reconstruct the database structure by sending payloads and observing the response / behaviour of the server
 - This attack is often used when the web application is configured to show generic error messages, but has not mitigated the code that is vulnerable to SQL injection
 - Boolean-based blind SQLi: sending a query to the DB which forces the application to return a different result depending on whether the query returns `TRUE` or `FALSE`
