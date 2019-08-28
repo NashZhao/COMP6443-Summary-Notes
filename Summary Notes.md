@@ -322,7 +322,7 @@
 ### Command injection
 
 - When some application takes user input and uses it to form part of a command
-- For example, if a server ran `cat $zid.submission` whenver a student tried to check their mark, you can replace your zID with your own code (much like in SQLi), except here you have full access to everything a shell can do
+- For example, if a server ran `cat $zid.submission` whenever a student tried to check their mark, you can replace your zID with your own code (much like in SQLi), except here you have full access to everything a shell can do
 
 ### Server-Side Includes (SSI) injection
 
